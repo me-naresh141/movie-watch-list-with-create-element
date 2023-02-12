@@ -1,0 +1,54 @@
+/* Global Styles */
+
+/* General */
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1.125rem;
+  font-family: 'Nunito', sans-serif;
+  background: linear-gradient(
+    to right bottom,
+    rgb(236, 173, 78),
+    rgb(247, 181, 110)
+  );
+  height: 90vh;
+}
+
+/* Container */
+.container {
+  max-width: 90%;
+  width: 500px;
+  margin: 0 auto;
+  padding: 0.5rem 1.5rem 1.5rem 1.5rem;
+  margin-top: 3rem;
+  border-radius: 0.5rem;
+}
+
+h1 {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.bg-color {
+  background: linear-gradient(
+    to right bottom,
+    rgb(151, 193, 231),
+    rgb(149, 158, 222)
+  );
+}
+
+hr {
+  border: 1px dashed white;
+}
+
+li {
+  margin: 0.5rem;
+}
+
+button {
+  cursor: pointer;
+  margin: 0rem 1rem;
+}
